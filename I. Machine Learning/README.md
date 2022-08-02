@@ -94,8 +94,6 @@ X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data
 # STEP7 使用混淆矩陣(Confusion matrix)分析
 以驗證集分析 採 Weight avg
 
-
-
 | 學習模型 | 準確率(Accuracy) | 精準度(Precision) | 召回率(Recall) | F1分數(F1-score)| 支持度(Support) |
 | -------- | -------- | -------- |-------- | -------- | -------- |
 | SVM     | 0.97    | 0.97     |0.97    | 0.97     | 0:錯2 / 1:錯0 / 2:錯7 / 3:錯4    |
