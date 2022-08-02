@@ -1,15 +1,15 @@
 # I.	機器學習（Machine Learning）
 ## STEP1 讀csv檔
-train_file_url= 'Mobile Price Classification/train.csv' # train檔案位置 ,<br>
-test_file_url= 'Mobile Price Classification/test.csv' # test檔案位置
-train_data = pd.read_csv(train_file_url); #讀訓練檔
-test_data = pd.read_csv(test_file_url); #讀測試檔
+train_file_url= 'Mobile Price Classification/train.csv' # train檔案位置 <br>
+test_file_url= 'Mobile Price Classification/test.csv' # test檔案位置<br>
+train_data = pd.read_csv(train_file_url); #讀訓練檔<br>
+test_data = pd.read_csv(test_file_url); #讀測試檔<br>
 
 
 ## STEP2 刪除欄位
-利用相關係數找出影響手機價位的屬性欄位
-#找出影響價格範圍的屬性(設相關係數 > 0.1 ) battery_power px_height px_width ram 
-train_data.corr(method ='pearson')['price_range']
+利用相關係數找出影響手機價位的屬性欄位<br>
+#找出影響價格範圍的屬性(設相關係數 > 0.1 ) battery_power px_height px_width ram <br>
+train_data.corr(method ='pearson')['price_range'] <br>
 
 ![](https://i.imgur.com/xypnUgq.png)
 
@@ -17,11 +17,11 @@ train_data.corr(method ='pearson')['price_range']
 反而score準確率svm會差點0.01(0.961875>>0.9593)，但計算效能比較快
 
 ## STEP4 將訓練資料切分成訓練集和驗證集 (8:2切分)
-X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data, test_size = 0.2, random_state = 42)
+X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data, test_size = 0.2, random_state = 42)<br>
 
 ## STEP5 使用4種機器學習模型 (各模型參數待了解)
-訓練集準確率：XXX_model.score(X_train,y_train)
-驗證集準確率：XXX_model.score(X_valid,y_valid)
+訓練集準確率：XXX_model.score(X_train,y_train)<br>
+驗證集準確率：XXX_model.score(X_valid,y_valid)<br>
 
 
 
@@ -56,9 +56,9 @@ test_file_url= 'Mobile Price Classification/test.csv' # test檔案位置
 
 
 ## STEP2 刪除欄位
-利用相關係數找出影響手機價位的屬性欄位
-#找出影響價格範圍的屬性(設相關係數 > 0.1 ) battery_power px_height px_width ram 
-train_data.corr(method ='pearson')['price_range']
+利用相關係數找出影響手機價位的屬性欄位<br>
+#找出影響價格範圍的屬性(設相關係數 > 0.1 ) battery_power px_height px_width ram <br>
+train_data.corr(method ='pearson')['price_range'] <br>
 
 ![](https://i.imgur.com/xypnUgq.png)
 
@@ -66,11 +66,11 @@ train_data.corr(method ='pearson')['price_range']
 反而score準確率svm會差點0.01(0.961875>>0.9593)，但計算效能比較快
 
 ## STEP4 將訓練資料切分成訓練集和驗證集 (8:2切分)
-X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data, test_size = 0.2, random_state = 42)
+X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data, test_size = 0.2, random_state = 42) <br>
 
 ## STEP5 使用4種機器學習模型 (各模型參數待了解)
-訓練集準確率：XXX_model.score(X_train,y_train)
-驗證集準確率：XXX_model.score(X_valid,y_valid)
+訓練集準確率：XXX_model.score(X_train,y_train) <br>
+驗證集準確率：XXX_model.score(X_valid,y_valid) <br>
 
 
 
