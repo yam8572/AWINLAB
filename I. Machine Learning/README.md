@@ -1,6 +1,6 @@
 # I.	機器學習（Machine Learning）
 ## STEP1 讀csv檔
-train_file_url= 'Mobile Price Classification/train.csv' # train檔案位置
+train_file_url= 'Mobile Price Classification/train.csv' # train檔案位置 ,<br>
 test_file_url= 'Mobile Price Classification/test.csv' # test檔案位置
 train_data = pd.read_csv(train_file_url); #讀訓練檔
 test_data = pd.read_csv(test_file_url); #讀測試檔
