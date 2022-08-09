@@ -79,6 +79,8 @@ X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data
 * Accuracy : <br>
   True Positive 和 True Negative，把它加總起來除上所有情形個數，當數據大部分偏實際真或實際假時指標會失效 。<br>
   Accuracy 和 Precision 是接近的，accuracy 無失指標性。<br>
+  
+  各模型在 精準度(Precision)、召回率(Recall)、F1分數(F1-score) 皆相等。<>
 
 ### 分析各模型在解決這個分類問題上的優劣 : <br>
 
@@ -100,7 +102,7 @@ X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data
     故整體平均下來會拉低 Precision、Recall。<br>
     不適合過多性質，易造成 overfitting 之情形。<br>
 * **隨機森林(Random Forest, RF)** : <br>
-    隨機抽取各性質及樣本數，建構多棵決策樹。<br>
+    隨機抽取各性質及樣本數，建構多棵決策樹，整體平均下來精準度高於DT。<br>
     在性質是隨機抽樣，及樣本資料也是隨機抽樣，可以有效規避避 overfitting 之情形。<br>
     適合處理多維度的資料。
 
