@@ -124,12 +124,16 @@ Adam_hostory = Adam_model.fit(
 尤其在 Adam、SGD、Adagrad 顯著成長，Adam 為最佳。 <br>
 
 #### 盡量提高最優化各模型
-| optimizer    | Adam       | SGD    | RMSprop | Adagrad | Adadelta | Adamax | Nadam  |
-| ------------ | ------     | ------ | ------- | ------- | -------- | ------ | ------ |
-| batch_size   | 16         | 16     | 48      | 16      | 16       | 16     | 48     |
-| epochs       | 40         | 40     | 25      | 40      | 40       | 40     | 25     |
-| accuracy     | **0.8918** | 0.8670 | 0.5247  | 0.8941  | 0.7528   | 0.8258 | 0.5147 |
-| val_accuracy | 0.9248     | 0.9282 | 0.5012  | 0.8796  | 0.7905   | 0.8287 | 0.4954 |
+| optimizer    | Adam       | SGD    | RMSprop | Adagrad | Adadelta | Adamax  | Nadam  |
+| ------------ | ------     | ------ | ------- | ------- | -------- | ------  | ------ |
+| batch_size   | 16         | 16     | 48      | 16      | 16       | 16      | 48     |
+| epochs       | 40         | 40     | 25      | 40      | 40       | 40      | 25     |
+| accuracy     | 0.8918     | 0.8670 | 0.5247  | 0.8941  | 0.7528   | 0.8258  | 0.5147 |
+| val_accuracy | 0.9248     | 0.9282 | 0.5012  | 0.8796  | 0.7905   | 0.8287  | 0.4954 |
+| Avg          | 0.9083     | 0.8976 | 0.51295 | 0.88685 | 0.77165  | 0.82725 | 0.50505|
+
+依 ( accuracy + val_accuracy ) / 2 高到低排列 : <br>
+Adam 0.9083 > SGD  0.8976 > Adagrad 0.88685 > Adamax 0.82725 > Adadelta 0.77165 > RMSprop 0.51295 > Nadam 0.50505 <br>
 
 #### 最終結論：<br>
 選擇 optimizer = Adam，<br>
