@@ -92,7 +92,7 @@ X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data
 | px_width      | 0.165818 | 
 
 * **支援向量機(Support Vector Machine, SVM) :**<br>
-    適合處理多維度的資料，各性質與價格呈線性相關，故適合本題有多種性質影響價格區間。<br>
+    適合處理多維度的資料，將2維轉變成3維空間用平面切割分類，各性質與價格呈線性相關，故適合本題有多種性質影響價格區間。<br>
 * **K-近鄰演算法(K-nearest neighbors, KNN) :** <br>
     找到距離最近的K個鄰居(K避免偶數出現平手狀況)→進行投票→決定類別<br>
     本題切分出的驗證集，價格區間樣本數算平均 ( 資料平衡 400筆中 0:105筆 / 1:91筆 / 2:92筆 / 3:112筆 ) ，故能得到不錯的精準值。<br>
