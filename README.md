@@ -23,7 +23,7 @@
 
 請至Kaggle下載flowers資料集，並用深度學習的方法進行「分類」。<br>
 [https://www.kaggle.com/alxmamaev/flowers-recognition](https://www.kaggle.com/alxmamaev/flowers-recognition)
-### (1)	請使用Keras的方法建立模型，各30分。
+### (1)	請使用Keras的方法建立模型。
 ### (2)	深度學習的模型請使用深度神經網路(Deep Neural Network, DNN)或者卷積神經網路(Convolutional Neural Network, CNN)，擇一即可。
 ### (3)	訓練集(Training Set)訓練完後，請針對測試集(Testing set)透過一些性能指標衡量模型的好壞，並印出測試集隨機十筆預測後的結果和正解進行比較。
 
