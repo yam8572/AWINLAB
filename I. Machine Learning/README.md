@@ -69,6 +69,8 @@ X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data
 | DT      | 0.87           | 0.86             | 0.86          | 0.86           | 0:錯13 / 1:錯10 / 2:錯20 / 3:錯13 |
 | RF      | 0.94           | 0.94             | 0.94          | 0.94           | 0:錯4 / 1:錯3 / 2:錯9 / 3:錯10    |
 
+依高到低排列: SVM > RF > KNN > RF
+
 ### 各指標含意 :
 * Precision (PPV): <br>
   看的是在預測正向的情形下，實際的「精準度」是多少。<br>
