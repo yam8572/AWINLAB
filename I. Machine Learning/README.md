@@ -80,7 +80,7 @@ X_train, X_valid, y_train, y_valid = train_test_split(X_train_data, Y_train_data
   True Positive 和 True Negative，把它加總起來除上所有情形個數，當數據大部分偏實際真或實際假時指標會失效 。<br>
   Accuracy 和 Precision 是接近的，accuracy 無失指標性。<br>
   
-  各模型在 精準度(Precision)、召回率(Recall)、F1分數(F1-score) 皆相等。<>
+  各模型在 精準度(Precision)、召回率(Recall)、F1分數(F1-score) 皆相等。<br>
 
 ### 分析各模型在解決這個分類問題上的優劣 : <br>
 
