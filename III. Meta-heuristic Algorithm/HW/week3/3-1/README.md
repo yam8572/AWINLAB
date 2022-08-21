@@ -123,7 +123,7 @@ e的指數若是一個很大的負值，計算後的值會較接近0，允許機
 current_temperature = current_temperature * Rₜ ( 退火係數 )
 ```
 
-重複 STEP2 ~ STEP4 的步驟，直到迭代完 500 次停止。<br>
+重複 STEP2 ~ STEP4 的步驟，直到迭代完 1000 次停止。<br>
 
 ## STEP 5 畫出 1000次 迭代( iteration ) run=51的平均收斂圖
 
