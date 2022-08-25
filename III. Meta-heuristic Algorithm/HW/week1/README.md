@@ -1,3 +1,6 @@
+題目:<br>
+使用窮舉法(Exhaustive Search)觀察在半小時內 one-max problem (100bits) 可以跑到幾個 bits<br>
+
 程式流程: <br>
 
 STEP0:<br>
