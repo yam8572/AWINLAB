@@ -27,7 +27,7 @@ w = 0.729844 <br>
 c1 = c2 = 1.496180 <br>
 r1 = r2 = 0~1 間隨機數 <br>
 
-### (1)Ackley function參數
+### (3)Ackley function參數
 Ackley function:<br>
 ![](https://i.imgur.com/TyYor69.png)
 ![](https://i.imgur.com/vwi24Nz.png)
