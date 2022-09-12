@@ -186,10 +186,9 @@ current_temperature = current_temperature * Rₜ ( 退火係數 )
 
 ## STEP 5 畫出 1000次 迭代( iteration ) run=51的平均收斂圖
 
-![](https://i.imgur.com/2XjzZE5.jpg)
-
+![](https://i.imgur.com/5EiE7OR.jpg)
 
 結論:<br>
-在 iteration = 78 時收斂，<br>
-找到最佳解 [1, 1, 1, 1]<br>
-4 bits 個 1 ，最佳解值: 11<br>
+找到最佳解 4 bits 個 1 : [1, 1, 1, 1]<br>
+最佳解值: 11<br>
+最佳平均解值: 11<br>
